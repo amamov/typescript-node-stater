@@ -1,4 +1,3 @@
-
 FROM node:alpine
 
 # Set working directory

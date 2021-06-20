@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "tsc",
-    "dev": "tsc-watch --onSuccess \"node dist/src/app.js\"",
+    "dev": "tsc-watch --onSuccess \"node dist/app.js\"",
     "start": "node dist/src/app.js"
   },
   "author": "yoon sang seok - amamov",
