@@ -25,7 +25,7 @@
 
 5. `touch .env` (create dotenv file)
 
-6. `npm run dev`
+6. `npm run start:dev`
 
 ## .env example
 
