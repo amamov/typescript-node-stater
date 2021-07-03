@@ -10,6 +10,7 @@
 - Node.js
 - Docker
 - PM2
+- Dotenv
 
 ## Requirements
 
@@ -19,11 +20,11 @@
 
 1. `git clone https://github.com/amamov/typescript-node-boilerplate.git <project_name>`
 
-2. `cd project_name`
+2. `cd <project_name>`
 
-3. `rm -rf .git`
+3. `npm i`
 
-4. `npm i`
+4. `rm -rf .git`
 
 5. `touch .env` (create dotenv file)
 

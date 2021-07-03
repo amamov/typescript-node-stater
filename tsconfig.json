@@ -14,10 +14,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./src",
-    "incremental": true,
-    "paths": {
-      "@utils/*": ["utils/*"]
-    }
+    "incremental": true
   },
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }

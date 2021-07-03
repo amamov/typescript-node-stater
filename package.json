@@ -21,6 +21,7 @@
     "eslint-plugin-import": "^2.23.4",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
     "ts-node": "^9.1.1",
     "tsc": "^2.0.3",
     "tsc-watch": "^4.2.9",
