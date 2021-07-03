@@ -17,7 +17,7 @@
 
 ## Getting Started
 
-1. `git clone https://github.com/amamov/typescript-node-boilerplate.git <project_name>`
+1. `git clone -b javascript --single-branch https://github.com/amamov/typescript-node-boilerplate.git <project_name>`
 
 2. `cd <project_name>`
 
