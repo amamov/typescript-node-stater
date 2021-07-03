@@ -16,9 +16,6 @@ RUN npm install --production
 # Copy all files
 COPY ./ ./
 
-# Build app
-RUN npm run build
-
 # Expose the listening port
 EXPOSE 3000
 

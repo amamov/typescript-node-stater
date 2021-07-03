@@ -1,10 +1,9 @@
-# typescript-node-boilerplate
+# javascript-node-boilerplate
 
-> ⚡️ minimal boilerplate based on typescript with node, docker, pm2 ⚡️
+> ⚡️ minimal boilerplate based on javascript with node, docker, pm2 ⚡️
 
 ## Technology
 
-- Typescript
 - ESLint
 - Prettier
 - Node.js
@@ -36,13 +35,5 @@
 # .env
 
 PORT="8000"
-MONGO_URL="mongodb+srv://..."
 COOKIE_SECRET="..."
-JWT_SECRET="..."
-JWT_EXPIRATION="1y"
-S3_ACCESS_KEY_ID=""
-S3_SECRET_ACCESS_KEY=""
-REDIS_HOST="localhost"
-REDIS_PORT="6379"
-REDIS_PASSWORD="1205"
 ```
