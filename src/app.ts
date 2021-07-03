@@ -1,7 +1,8 @@
-import * as dotenv from 'dotenv';
-dotenv.config({ path: `${__dirname}/../.env` });
+import * as dotenv from 'dotenv'
 
-const hello: string = 'hello';
-const world: string = process.env.hello || 'world';
+dotenv.config({ path: `${__dirname}/../.env` })
 
-console.log(hello, world);
+const helloWorld = `${process.env.hello || 'hello!'} world`
+
+/* eslint-disable-next-line no-console */
+console.log(helloWorld)

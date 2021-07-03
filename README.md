@@ -5,6 +5,8 @@
 ## Technology
 
 - Typescript
+- ESLint
+- Prettier
 - Node.js
 - Docker
 - PM2
@@ -25,7 +27,7 @@
 
 5. `touch .env` (create dotenv file)
 
-6. `npm run start:dev`
+6. `npm run start:dev` or `yarn start:dev`
 
 ## .env example
 

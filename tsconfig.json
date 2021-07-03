@@ -6,6 +6,7 @@
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
+    "resolveJsonModule": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
@@ -13,7 +14,10 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./src",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@utils/*": ["utils/*"]
+    }
   },
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }
