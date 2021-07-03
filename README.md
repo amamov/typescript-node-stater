@@ -2,6 +2,8 @@
 
 > ⚡️ minimal boilerplate based on typescript with node, docker, pm2 ⚡️
 
+- [If you want a javascript based boilerplate, click here!](https://github.com/amamov/typescript-node-boilerplate/tree/javascript)
+
 ## Technology
 
 - Typescript
