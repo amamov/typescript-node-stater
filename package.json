@@ -10,7 +10,7 @@
     "start": "node dist/app.js",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
   },
-  "author": "yoon sang seok - 아마코",
+  "author": "yoon sang seok - amamov",
   "devDependencies": {
     "@types/node": "^15.3.0",
     "@typescript-eslint/eslint-plugin": "^4.28.1",

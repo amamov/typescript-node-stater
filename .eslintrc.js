@@ -13,6 +13,7 @@ module.exports = {
   },
   ignorePatterns: ['.eslintrc.js', 'dist/', 'node_modules/'],
   rules: {
+    'no-console': 'warn',
     '@typescript-eslint/interface-name-prefix':
       'off' /* https://github.com/bradzacher/eslint-plugin-typescript/blob/master/docs/rules/interface-name-prefix.md */,
     '@typescript-eslint/explicit-function-return-type':
