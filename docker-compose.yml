@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  # db for develop
+  db:
+    image: postgres:9.6.23
+    restart: always
+    env_file:
+      - ./.env.development
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
