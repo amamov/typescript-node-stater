@@ -1,30 +1,14 @@
-FROM node:alpine
+FROM node:16.13
 
-# Set working directory
-WORKDIR /usr/app
+RUN mkdir -p /home/app
+WORKDIR /home/app
 
-# Install PM2 globally
-RUN npm install --global pm2
-
-# Copy "package.json" and "package-lock.json" before other files
-# Utilise Docker cache to save re-installing dependencies if unchanged
+RUN npm i -g npm 
+RUN npm i -g pm2
 COPY ./package*.json ./
-
-# Install dependencies
-RUN npm install --production
-
-# Copy all files
+RUN npm i 
 COPY ./ ./
-
-# Build app
 RUN npm run build
+RUN rm -rf src
 
-# Expose the listening port
-EXPOSE 3000
-
-# Run container as non-root (unprivileged) user
-# The "node" user is provided in the Node.js Alpine base image
-USER node
-
-# Launch app with PM2
 CMD [ "pm2-runtime", "start", "npm", "--", "start" ]
