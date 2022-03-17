@@ -4,14 +4,15 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended' /* https://github.com/typescript-eslint/typescript-eslint#readme */,
-    'airbnb-base' /* https://github.com/airbnb/javascript */,
     'prettier',
   ],
   parserOptions: {
     project: './tsconfig.json',
   },
-  ignorePatterns: ['.eslintrc.js', 'dist/', 'node_modules/'],
+  ignorePatterns: ['.eslintrc.js', 'dist/', 'node_modules/', 'jest.config.js'],
   rules: {
     'no-console': 'warn',
     '@typescript-eslint/interface-name-prefix':
